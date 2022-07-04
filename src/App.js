@@ -1,11 +1,13 @@
 import './App.css';
+import { ParentComponent } from './components/ParentComponent';
 // import Greet from './components/Greet';
-import Message from './components/Message';
+// import Message from './components/Message';
 
 function App() {
   return (
     <div className="App">
-     <Message />
+     {/* <Message /> */}
+     <ParentComponent />
     </div>
   );
 }
