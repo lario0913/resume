@@ -1,12 +1,11 @@
 import './App.css';
-import Greet from './components/Greet';
+// import Greet from './components/Greet';
+import Message from './components/Message';
 
 function App() {
   return (
     <div className="App">
-      <Greet name='Lario' />
-      <Greet name='Larrie' />
-      <Greet name='Larrieman' />
+     <Message />
     </div>
   );
 }
