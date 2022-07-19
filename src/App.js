@@ -1,6 +1,7 @@
 import './App.css';
+import { PostForm } from './components/PostForm';
 // import { ParentComponent } from './components/ParentComponent';
-import { PostList } from './components/PostList';
+// import { PostList } from './components/PostList';
 // import Greet from './components/Greet';
 // import Message from './components/Message';
 
@@ -9,7 +10,7 @@ function App() {
     <div className="App">
      {/* <Message /> */}
      {/* <ParentComponent /> */}
-     < PostList />
+     < PostForm />
     </div>
   );
 }
