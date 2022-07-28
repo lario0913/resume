@@ -1,13 +1,13 @@
 import './App.css';
-import Counter from './components/Counter';
-import ParentComponent from './components/ParentComponent';
+import HoverCounter from './components/HoverCounter';
+
 
 
 function App() {
 
   return (
     <div className="App">
-      <ParentComponent />
+      <HoverCounter />
     </div>
   );
 }
