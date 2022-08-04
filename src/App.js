@@ -1,5 +1,5 @@
 import './App.css';
-import HoverCounter from './components/HoverCounter';
+import HookCounter from './HookCounter';
 
 
 
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <HoverCounter />
+      <HookCounter />
     </div>
   );
 }
